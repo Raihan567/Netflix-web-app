@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center p-4 sticky top-0 w-full z-[100]  ">
+    <div className="flex justify-between items-center p-4 sticky top-0 w-full z-[100] bg-black ">
       <Link to="/">
         <h1 className="font-bold text-red-600 uppercase text-4xl cursor-pointer  ">
           Netflix
