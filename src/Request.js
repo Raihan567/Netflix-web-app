@@ -1,6 +1,4 @@
-// const key = process.env.REACT_APP_TMDB_KEY;
-const key = `b8b1b842a8e8c7984d0a087c21d00c59`;
-
+const key = process.env.REACT_APP_TMDB_KEY;
 
 const requests = {
   requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,
@@ -9,6 +7,6 @@ const requests = {
   requestUpcoming: `https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=en-US&page=1`,
   requestTrending: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=2`,
   requestHorror: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=3`,
-  requestLatest:`https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=5`,
+  requestLatest: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=5`,
 };
 export default requests;
