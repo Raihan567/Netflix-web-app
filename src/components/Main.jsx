@@ -20,9 +20,9 @@ const Main = () => {
     }
   };
   return (
-    <div className="w-full h-[580px] text-white">
+    <div className="w-full h-screen text-white">
       <div className="w-full h-full">
-        <div className="w-full h-[580px] absolute bg-gradient-to-r from-black"></div>
+        <div className="w-full h-screen absolute bg-gradient-to-r from-black"></div>
         <img
           className="w-full h-full object-cover "
           src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`}
